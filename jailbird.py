@@ -80,8 +80,13 @@ def paste_format():
 
 # Function for updating JailBird
 def update_jailbird():
-    print("Updating JailBird...")
-    # Update functionality for JailBird (you can customize how you want to update other tools)
+    print("Updating JailBird to the latest version...")
+    # Change directory to the repository folder where JailBird is cloned
+    if os.path.exists(".git"):
+        subprocess.call(['git', 'pull'])  # Pull the latest changes from the repository
+    else:
+        print("The tool is not a git repository. Cloning JailBird from GitHub...")
+        subprocess.call(['git', 'clone', 'https://github.com/jailbird-project/JailBird.git'])
 
 # Function for Phishing Tool (Zphisher)
 def phishing_tool():
