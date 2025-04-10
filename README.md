@@ -5,8 +5,8 @@ JailBird is an powerfull osint multi tool made by thebitcoinbandit and was progr
 - Phone number Information Gathering
 - Email Information Gathering
 - Social Media information gathering
-- Phishing tool 
+- Phishing tool
 
-     INSTALATION IN LINUX DISTROS
- git clone https://github.com/jailbird-project/JailBird-Osint-Multi-Tool
- python3 jailbird.py
+INSTALATION IN LINUX DISTROS
+git clone https://github.com/jailbird-project/JailBird-Osint-Multi-Tool
+python3 jailbird.py
